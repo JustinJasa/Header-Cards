@@ -1,0 +1,45 @@
+.card{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow:0 8px 8px 2px lightgrey;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid blue; /* Add this line */
+}
+
+.header{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.heading{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card-content{
+    font-size: clamp(12px, 1vw, 14px);
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: left;
+    color: grey;
+}
+
+.footer{
+    width: 100%;
+}
+
+
+@media (max-width: 1000px) {
+    .card {
+        margin: 20px 20px;
+    }
+}

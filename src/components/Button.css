@@ -1,0 +1,29 @@
+.button{
+    background: #0072d4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .button{
+        font-size: 16px;
+    }
+  }
+  
+
+
+  @media (max-width: 475px) {
+    .button{
+        font-size: 14px;
+    }
+  }
+  
