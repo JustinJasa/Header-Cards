@@ -1,17 +1,23 @@
-.container{ 
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    margin: auto;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin: auto;
+  width: 80%;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+  }
 }
 
 @media (max-width: 1000px) {
-    .container {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
